@@ -1,14 +1,47 @@
 {
+  "proxy": "http://localhost:3005",
   "name": "fabro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.4",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "elegant-icons": "^0.0.1",
+    "fast-two-sms": "^3.0.0",
+    "firebase": "^10.8.0",
+    "flaticon": "^0.1.0",
+    "font-awesome": "^4.7.0",
+    "glightbox": "^2.0.6",
+    "jspdf": "^2.5.1",
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "pikaday": "^1.8.2",
     "react": "^18.2.0",
+    "react-big-calendar": "^1.8.5",
+    "react-bootstrap": "^2.9.2",
+    "react-burger-menu": "^3.0.9",
+    "react-calendar": "^4.7.0",
+    "react-datepicker": "^4.25.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-spring": "^9.7.3",
+    "react-switch": "^7.0.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.6",
+    "sweetalert2": "^11.10.2",
+    "swiper": "^6.8.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +67,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "css-loader": "^6.8.1",
+    "gh-pages": "^6.1.1",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^3.3.3"
   }
 }

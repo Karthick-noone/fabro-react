@@ -1,0 +1,73 @@
+.box {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-left: 30px;
+    align-items: center;
+    margin-bottom: 20px; /* Add margin at the bottom for better spacing */
+  }
+  
+  #box {
+    margin-left: 12%;
+  }
+  
+  .canceled-row {
+    background-color: #ffc0cb; /* or any other color you prefer */
+  }
+
+  .table td, .table th {
+    font-size: 14px; /* Adjust as needed */
+  }
+
+  .table {
+    max-width: 100%;
+    min-width: 600px; /* Adjust as needed */
+    border: 1px solid #dee2e6;
+  }
+  .cancelled-row {
+    background-color: red;
+}
+  .popup {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    z-index: 999;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #555;
+  }
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 0; /* Adjust margin as needed */
+  }
+  /* Responsive Styles */
+  @media (max-width: 576px) {
+    .box {
+      margin-left: 0;
+    }
+  
+    #box {
+      margin-left: 0;
+    }
+    .table td, .table th {
+      font-size: 12px; /* Adjust as needed */
+    }
+  }
+      

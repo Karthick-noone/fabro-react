@@ -1,0 +1,33 @@
+/* Login.css */
+
+.body {
+    background: url('../img/img.png') no-repeat fixed center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* border-image: fill 0 linear-gradient(rgba(83, 82, 82, 0.2),#000000); */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: filter;
+  }
+  
+  .form {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin-top: 20px;
+    
+  }
+  .username{
+    color:#FAEED1;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  img{
+    float: right;
+  }
+ 

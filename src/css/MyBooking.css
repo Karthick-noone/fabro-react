@@ -1,0 +1,71 @@
+/* Additional Styles for a Beautiful Booking Form */
+
+/* Container Background Gradient */
+.booking-form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px; /* Adjust the max-width as needed */
+  margin: auto; /* Center the form */
+}
+
+/* Form Heading Style */
+.form-heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input Focus Style */
+.form-input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+/* Button Hover Animation */
+.form-button:hover {
+  transform: scale(1.05);
+}
+
+/* Add some spacing for better readability */
+.form-input,
+.form-button {
+  margin-bottom: 20px;
+}
+
+
+/* Error Message Style */
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Success Message Style */
+.success-message {
+  color: #4caf50;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Stylish OTP Input */
+.form-otp-input {
+  width: 40px;
+  padding: 10px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Responsive Styles for Small Screens */
+@media screen and (max-width: 600px) {
+  .booking-form-container {
+    max-width: 100%;
+  }
+}

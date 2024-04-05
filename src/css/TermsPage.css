@@ -1,0 +1,78 @@
+/* TermsPage.css */
+
+.container-fluid {
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+  .pic {
+    padding: 15px;
+  }
+  
+  .hdclr {
+    color: #2b7b7e;   
+     text-decoration: underline;
+     margin-top: 5px;
+ /* Teal color for heading */
+  }
+  
+  .privacy-text {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #333; /* Dark text color */
+    margin-top: 5px;
+  }
+  
+  /* Add some spacing between paragraphs */
+  .privacy-text p {
+    margin-bottom: 15px;
+    font-family: calibri;
+  }
+  
+  /* Style the back button */
+  .btn-back {
+    background-color: #539c9f;
+    color: #fff;
+    height: 40px;
+    margin-top: 30px;
+  }
+  
+  .btn-back:hover {
+    background-color: #3b7275; /* Darker teal on hover */
+  }
+  
+ 
+  
+  /* Style the header image */
+  .container-fluid img {
+    border-radius: 5px; /* Add some border-radius to the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  /* Add padding to the header image */
+  .container-fluid img {
+    padding: 5px;
+  }
+  
+  /* Add spacing around the logo */
+  .container-fluid .col-lg-12 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Light gray border */
+  }
+  
+  /* Style links in the privacy text */
+  .privacy-text a {
+    color: #539c9f; /* Teal color for links */
+    text-decoration: underline;
+  }
+  
+  .privacy-text a:hover {
+    color: #3b7275; /* Darker teal on hover */
+  }
+  

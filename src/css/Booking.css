@@ -1,0 +1,51 @@
+/* BookedDetails.css */
+
+.booked-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  font-family: 'Arial', sans-serif;
+}
+
+.booked-details-content {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 30px;
+  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.booked-details-heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.booked-details-item {
+  margin-bottom: 15px;
+}
+
+.booked-details-loading,
+.booked-details-error,
+.booked-details-no-details {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
